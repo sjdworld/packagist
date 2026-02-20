@@ -1,0 +1,12 @@
+{
+  "name": "sjdworld/packagist",
+  "homepage": "https://sjdworld.github.io/packagist",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:sjdworld/sjdw-theme.git"
+    }
+  ],
+  "require-all": false,
+  "output-dir": "docs"
+}

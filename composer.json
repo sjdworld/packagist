@@ -1,0 +1,20 @@
+{
+  "name": "sjdworld/packagist",
+  "description": "A self-hosted static Composer repository generator for Private Packagist.",
+  "type": "project",
+  "homepage": "https://sjdworld.github.io/packagist",
+  "license": "MIT",
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/satis": true
+    }
+  },
+  "minimum-stability": "stable",
+  "scripts": {
+    "packagist": "satis build --no-interaction"
+  },
+  "require": {
+    "composer/satis": "dev-main"
+  }
+}
